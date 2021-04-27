@@ -15,8 +15,25 @@ in the object.
 function averageBalance(array){
   //CODE BELOW HERE
 
+  
+ let totalSum = 0;
 
+
+
+
+
+
+
+
+for(var i = 0; i <= array.length - 1; i++){
+console.log(parseFloat(array[i].balance.replace('$', '').replace(',', '')))
+
+
+
+}
 
 
   //CODE ABOVE HERE
 }
+
+console.log(averageBalance(customers))
